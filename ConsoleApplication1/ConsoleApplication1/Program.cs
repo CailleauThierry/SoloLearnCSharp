@@ -10,7 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int = 89;
+            int x = 89;
             Console.WriteLine("Hello Thierry How was your day?");
             Console.Write(x - 89);
             Console.WriteLine(""); /* This only uses the automatic line return of WriteLine*/
