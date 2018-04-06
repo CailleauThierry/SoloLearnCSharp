@@ -10,10 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int x = 89;
-            double y = 20;
-            Console.WriteLine("Displaying by passing placeholders"); 
-            Console.WriteLine(" x = {0}\n y = {1}", x, y); 
+            int a = 2;
+            int b = 4;
+            Console.Write(b);
+            Console.Write("{0}\n", a);
         }
     }
 }
