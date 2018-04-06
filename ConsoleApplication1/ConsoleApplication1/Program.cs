@@ -11,9 +11,9 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             int x = 89;
-            Console.WriteLine("Hello Thierry How was your day?");
-            Console.Write(x - 89);
-            Console.WriteLine(""); /* This only uses the automatic line return of WriteLine*/
+            double y = 20;
+            Console.WriteLine("Displaying by passing placeholders");
+            Console.WriteLine(" x = {0}\n y = {1}", x, y); 
         }
     }
 }
