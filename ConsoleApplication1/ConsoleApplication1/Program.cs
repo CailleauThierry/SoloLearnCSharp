@@ -10,10 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            string name;
-            Console.WriteLine("What's your name?");
-            name = Console.ReadLine();
-            Console.WriteLine("{0} is a pretty name",name);
+            int age;
+            Console.WriteLine("How old are you?");
+            age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Indeed, {0} is the perfect age!",age);
         }
     }
 }
