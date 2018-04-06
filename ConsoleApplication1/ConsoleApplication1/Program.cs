@@ -12,7 +12,7 @@ namespace ConsoleApplication1
         {
             int x = 89;
             double y = 20;
-            Console.WriteLine("Displaying by passing placeholders");
+            Console.WriteLine("Displaying by passing placeholders"); 
             Console.WriteLine(" x = {0}\n y = {1}", x, y); 
         }
     }
