@@ -10,21 +10,25 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int x;
-            int y;
-            Console.WriteLine("Please enter a vlaue for x:");
-            x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter a vlaue for y:");
-            y = Convert.ToInt32(Console.ReadLine());
+            int age;
+            Console.WriteLine("Enter a vlaue for age:");
+            age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Value 16 or 42 or 70 will result in non-default case. Entered value was: {0}", age);
 
-            if (x>y)
+            switch (age)
             {
-                Console.WriteLine(" x is: {0}\n y is: {1}", x, y);
-                Console.WriteLine(" x is greater than y by: {0}", (x-y));
-            }
-            else
-            {
-                Console.WriteLine(" x is: {0}", x);
+                case 16:
+                    Console.WriteLine("Too young");
+                    break;
+                case 42:
+                    Console.WriteLine("Adult");
+                    break;
+                case 70:
+                    Console.WriteLine("Senior");
+                    break;
+                default:
+                    Console.WriteLine("The default case");
+                    break;
             }
         }
     }
