@@ -10,10 +10,14 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int age;
-            Console.WriteLine("How old are you?");
-            age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Indeed, {0} is the perfect age!",age);
+            int x = 8;
+            int y = 3;
+            if (x>y)
+            {
+                Console.WriteLine(" x is: {0}\n y is: {1}", x, y);
+                Console.WriteLine(" x is greater than y by: {0}", (x-y));
+            }
+
         }
     }
 }
